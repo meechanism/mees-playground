@@ -1,0 +1,31 @@
+{
+  "name": "mees-playground",
+  "version": "0.0.1",
+  "description": "Mee's code sandbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meechanism/mees-playground.git"
+  },
+  "author": "Mee Cha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meechanism/mees-playground/issues"
+  },
+  "homepage": "https://github.com/meechanism/mees-playground#readme",
+  "dependencies": {
+    "jest": "^24.7.0"
+  },
+  "jest": {
+    "verbose": true
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-jest": "^24.7.0"
+  }
+}
